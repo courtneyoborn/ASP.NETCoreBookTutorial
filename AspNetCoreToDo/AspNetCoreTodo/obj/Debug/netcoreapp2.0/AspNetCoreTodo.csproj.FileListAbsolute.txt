@@ -6,8 +6,8 @@ C:\Users\Courtney Oborn\Documents\ASPNETCoreBookTutorial\ASP.NETCoreBookTutorial
 C:\Users\Courtney Oborn\Documents\ASPNETCoreBookTutorial\ASP.NETCoreBookTutorial\AspNetCoreToDo\AspNetCoreTodo\bin\Debug\netcoreapp2.0\AspNetCoreTodo.pdb
 C:\Users\Courtney Oborn\Documents\ASPNETCoreBookTutorial\ASP.NETCoreBookTutorial\AspNetCoreToDo\AspNetCoreTodo\obj\Debug\netcoreapp2.0\AspNetCoreTodo.csprojAssemblyReference.cache
 C:\Users\Courtney Oborn\Documents\ASPNETCoreBookTutorial\ASP.NETCoreBookTutorial\AspNetCoreToDo\AspNetCoreTodo\obj\Debug\netcoreapp2.0\AspNetCoreTodo.csproj.CoreCompileInputs.cache
-C:\Users\Courtney Oborn\Documents\ASPNETCoreBookTutorial\ASP.NETCoreBookTutorial\AspNetCoreToDo\AspNetCoreTodo\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
 C:\Users\Courtney Oborn\Documents\ASPNETCoreBookTutorial\ASP.NETCoreBookTutorial\AspNetCoreToDo\AspNetCoreTodo\obj\Debug\netcoreapp2.0\AspNetCoreTodo.AssemblyInfoInputs.cache
 C:\Users\Courtney Oborn\Documents\ASPNETCoreBookTutorial\ASP.NETCoreBookTutorial\AspNetCoreToDo\AspNetCoreTodo\obj\Debug\netcoreapp2.0\AspNetCoreTodo.AssemblyInfo.cs
 C:\Users\Courtney Oborn\Documents\ASPNETCoreBookTutorial\ASP.NETCoreBookTutorial\AspNetCoreToDo\AspNetCoreTodo\obj\Debug\netcoreapp2.0\AspNetCoreTodo.dll
 C:\Users\Courtney Oborn\Documents\ASPNETCoreBookTutorial\ASP.NETCoreBookTutorial\AspNetCoreToDo\AspNetCoreTodo\obj\Debug\netcoreapp2.0\AspNetCoreTodo.pdb
+C:\Users\Courtney Oborn\Documents\ASPNETCoreBookTutorial\ASP.NETCoreBookTutorial\AspNetCoreToDo\AspNetCoreTodo\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
