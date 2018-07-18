@@ -29,15 +29,18 @@ namespace AspNetCoreTodo.Services
             _context.Items.Add(newItem);
             var saveResult = await _context.SaveChangesAsync();
             return saveResult == 1;
-        }        public async Task<bool> MarkDoneAsync(Guid id, ApplicationUser user)
+        }
+        public async Task<bool> MarkDoneAsync(Guid id, ApplicationUser user)
         {
             var item = await _context.Items
             .Where(x => x.Id == id && x.UserId == user.Id)
-            .SingleOrDefaultAsync();
+            .SingleOrDefaultAsync();
+
             if (item == null) return false;
             item.IsDone = true;
             var saveResult = await _context.SaveChangesAsync();
             return saveResult == 1; // One entity should have been updated
         }
     }
-}
+}
+
