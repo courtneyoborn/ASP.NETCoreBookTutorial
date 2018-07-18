@@ -5719,11 +5719,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Courtney Oborn\\Documents\\ASPNETCoreBookTutorial\\ASP.NETCoreBookTutorial\\AspNetCoreToDo\\AspNetCoreTodo\\AspNetCoreTodo.UnitTests\\AspNetCoreTodo.UnitTests.csproj",
-      "projectName": "AspNetCoreTodo.UnitTests",
-      "projectPath": "C:\\Users\\Courtney Oborn\\Documents\\ASPNETCoreBookTutorial\\ASP.NETCoreBookTutorial\\AspNetCoreToDo\\AspNetCoreTodo\\AspNetCoreTodo.UnitTests\\AspNetCoreTodo.UnitTests.csproj",
+      "projectUniqueName": "C:\\Users\\Courtney Oborn\\Documents\\ASPNETCoreBookTutorial\\ASP.NETCoreBookTutorial\\AspNetCoreToDo\\AspNetCoreTodo\\AspNetCoreToDo.UnitTests\\AspNetCoreToDo.UnitTests.csproj",
+      "projectName": "AspNetCoreToDo.UnitTests",
+      "projectPath": "C:\\Users\\Courtney Oborn\\Documents\\ASPNETCoreBookTutorial\\ASP.NETCoreBookTutorial\\AspNetCoreToDo\\AspNetCoreTodo\\AspNetCoreToDo.UnitTests\\AspNetCoreToDo.UnitTests.csproj",
       "packagesPath": "C:\\Users\\Courtney Oborn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Courtney Oborn\\Documents\\ASPNETCoreBookTutorial\\ASP.NETCoreBookTutorial\\AspNetCoreToDo\\AspNetCoreTodo\\AspNetCoreTodo.UnitTests\\obj\\",
+      "outputPath": "C:\\Users\\Courtney Oborn\\Documents\\ASPNETCoreBookTutorial\\ASP.NETCoreBookTutorial\\AspNetCoreToDo\\AspNetCoreTodo\\AspNetCoreToDo.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5758,7 +5758,6 @@
             "version": "[15.7.0, )"
           },
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
             "version": "[2.0.0, )",
             "autoReferenced": true
