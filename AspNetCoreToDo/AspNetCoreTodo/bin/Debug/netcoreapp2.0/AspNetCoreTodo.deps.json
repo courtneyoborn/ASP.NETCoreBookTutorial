@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "7218135e7be51118edde96631203dbc7047e22a5"
+    "signature": "46d647cbebbf4da4128a0f66b5385066d15cd8ee"
   },
   "compilationOptions": {
     "defines": [
@@ -29,7 +29,8 @@
           "Microsoft.NETCore.App": "2.0.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.0.4",
           "MsBuild.NuGet.Pack": "2.0.0",
-          "NuGet.VisualStudio": "4.7.0"
+          "NuGet.VisualStudio": "4.7.0",
+          "xunit": "2.4.0"
         },
         "runtime": {
           "AspNetCoreTodo.dll": {}
@@ -4511,6 +4512,58 @@
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
       },
+      "xunit/2.4.0": {
+        "dependencies": {
+          "xunit.analyzers": "0.10.0",
+          "xunit.assert": "2.4.0",
+          "xunit.core": "2.4.0"
+        }
+      },
+      "xunit.abstractions/2.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/xunit.abstractions.dll": {}
+        },
+        "compile": {
+          "lib/netstandard2.0/xunit.abstractions.dll": {}
+        }
+      },
+      "xunit.analyzers/0.10.0": {},
+      "xunit.assert/2.4.0": {
+        "runtime": {
+          "lib/netstandard2.0/xunit.assert.dll": {}
+        },
+        "compile": {
+          "lib/netstandard2.0/xunit.assert.dll": {}
+        }
+      },
+      "xunit.core/2.4.0": {
+        "dependencies": {
+          "xunit.extensibility.core": "2.4.0",
+          "xunit.extensibility.execution": "2.4.0"
+        }
+      },
+      "xunit.extensibility.core/2.4.0": {
+        "dependencies": {
+          "xunit.abstractions": "2.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/xunit.core.dll": {}
+        },
+        "compile": {
+          "lib/netstandard2.0/xunit.core.dll": {}
+        }
+      },
+      "xunit.extensibility.execution/2.4.0": {
+        "dependencies": {
+          "xunit.extensibility.core": "2.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/xunit.execution.dotnet.dll": {}
+        },
+        "compile": {
+          "lib/netstandard2.0/xunit.execution.dotnet.dll": {}
+        }
+      },
       "Microsoft.NETCore.App/2.0.0": {
         "dependencies": {
           "Microsoft.NETCore.DotNetHostPolicy": "2.0.0",
@@ -7130,6 +7183,55 @@
       "sha512": "sha512-W6ZZ0/o7+3Qb77mRAQyLjPudHG3OMeeQ4p9yY13PUdJArmRCx2cLMm5F4tpIjJXxzHC0ew0oK7DMDGILMdfCnw==",
       "path": "windowsazure.storage/8.1.4",
       "hashPath": "windowsazure.storage.8.1.4.nupkg.sha512"
+    },
+    "xunit/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4pnZFnhaXnCi782UlqJmPfEOfCXRlo44M59UbAKdMLe6VIn2Zj8zqoSCxOrfK8thkFbu9d7PEX9eGICzYn3S0g==",
+      "path": "xunit/2.4.0",
+      "hashPath": "xunit.2.4.0.nupkg.sha512"
+    },
+    "xunit.abstractions/2.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sv5mGFG6uH056gt+SeymQ3kOf/GnueKe5Ayz/gOgAsD9P/gT1HfHq2i7d9B2zOAVbgL/kQdq0S9rvBryYvAYyQ==",
+      "path": "xunit.abstractions/2.0.2",
+      "hashPath": "xunit.abstractions.2.0.2.nupkg.sha512"
+    },
+    "xunit.analyzers/0.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zCxBwrfx2xeoOf95c+LZ0iBPD7llazJolXOIIRv+wZVlk5kqFAN8PvOYi4mEVCtAQATgGdC8vjl1txU+EgZziQ==",
+      "path": "xunit.analyzers/0.10.0",
+      "hashPath": "xunit.analyzers.0.10.0.nupkg.sha512"
+    },
+    "xunit.assert/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lolyezjBVLRauOs1QJhHn8CUAcTBFz5UadHWESkKW+kkaCDwMW2xhbKklObxq2X3dO72W9/HQFNpRMSScRIgww==",
+      "path": "xunit.assert/2.4.0",
+      "hashPath": "xunit.assert.2.4.0.nupkg.sha512"
+    },
+    "xunit.core/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KN4l+EzzRX8tTfB+VBkKAZCCa0dGzW9jtjpc19ZXrRO1b9zn/5vFptvB4aei21L8XQSbY+g/phPQAFIAq8pzsw==",
+      "path": "xunit.core/2.4.0",
+      "hashPath": "xunit.core.2.4.0.nupkg.sha512"
+    },
+    "xunit.extensibility.core/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nJyYBtUQOI5VZTaFFtE/kU3tj2a5+mxqN3GE75rnHQhfCskOB3eW8E98ARfMZTrP7hKeDYAxYQaORmeJPBF3jg==",
+      "path": "xunit.extensibility.core/2.4.0",
+      "hashPath": "xunit.extensibility.core.2.4.0.nupkg.sha512"
+    },
+    "xunit.extensibility.execution/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dVJIi7y7uSvFEInNIauX3QTtKkFoATb824NT3hHKKvjenhcV8qx1EracbFu2igLvyoVPpN04mYYGCRpAe35Usw==",
+      "path": "xunit.extensibility.execution/2.4.0",
+      "hashPath": "xunit.extensibility.execution.2.4.0.nupkg.sha512"
     },
     "Microsoft.NETCore.App/2.0.0": {
       "type": "package",
